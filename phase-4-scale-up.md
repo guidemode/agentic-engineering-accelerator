@@ -1,6 +1,6 @@
-# Phase 3 — Workflow Scale-Up
+# Phase 4 — Workflow Scale-Up
 
-**Weeks 7–8** · [← Phase 2](phase-2-first-features.md) · [README](README.md) · [Phase 4 →](phase-4-full-agentic.md)
+**Weeks 9–10 of the 14-week envelope (accelerator weeks 7–8)** · [← Phase 3](phase-3-first-features.md) · [README](README.md) · [Phase 5 →](phase-5-full-agentic.md)
 
 ## Objective
 
@@ -11,18 +11,18 @@ Two things at once:
 
 ## Premise
 
-The pilot stays bounded. We do **not** bring new teams on during the program — that's a scaling decision, not a pilot decision, and it gets made *after* the program based on the recommendation from Phase 5.
+The pilot stays bounded. We do **not** bring new teams on during the program — that's a scaling decision, not a pilot decision, and it gets made *after* the program based on the recommendation from Phase 6.
 
 What we *do* test is whether a new individual can be onboarded into a working agentic team using the assets the pilot produced. That's a real transferability signal without expanding scope.
 
-Phase 2 proved supervised features work. Phase 3 is where we find out whether the patterns survive contact with someone who wasn't there from day one, and whether richer agentic workflows pay off in this org's environment.
+Phase 3 proved supervised features work. Phase 4 is where we find out whether the patterns survive contact with someone who wasn't there from day one, and whether richer agentic workflows pay off in this org's environment.
 
 ## Who
 
 - The three lighthouse teams continue
-- **1-2 new engineers added to each lighthouse team** for the remainder of the pilot - joined to the team, not rotated through. They go through a compressed onboarding led by the team's champion, using existing assets (marketplace, assistant instruction files, workshop materials, session journals from Phases 1-2).
+- **1–2 new engineers added to each lighthouse team** for the remainder of the pilot — joined to the team, not rotated through. They go through a compressed onboarding led by the team's champion, using existing assets (marketplace, assistant instruction files, workshop materials, session journals from Phases 1–3).
 - The two **Agentic Engineers** are still embedded with the original teams but **deliberately stay out of the onboarding loop for the new joiners**. The new joiners learn from the champion and the assets, not from the AEs. This is the test: if patterns only transfer with an AE in the room, they're not really transferable. The AEs continue pairing with the original team members and supporting the new capabilities work below.
-- **Optional fourth track (legacy rewrite)** starts here if go decision was made at end of Phase 2
+- **Optional fourth track (legacy rewrite)** starts here if go decision was made at end of Phase 3
 
 ## New capabilities introduced
 
@@ -36,14 +36,14 @@ Long-running jobs that don't block the engineer's session.
 On independent slices of work — e.g. running the same refactor across multiple files in parallel, or exploring multiple implementation strategies simultaneously.
 
 ### Custom slash commands per project
-Codify the "how we do things here" patterns from Phase 2 into commands that any engineer (or agent) can invoke.
+Codify the "how we do things here" patterns from Phase 3 into commands that any engineer (or agent) can invoke.
 
 ### Spec-driven workflows
-Write a clear spec, have the assistant implement against it, and validate against the spec. Closer to autonomous than Phase 2's supervised model.
+Write a clear spec, have the assistant implement against it, and validate against the spec. Closer to autonomous than Phase 3's supervised model.
 
 ## Optional: legacy rewrite track begins
 
-If the go decision was made at end of Phase 2:
+If the go decision was made at end of Phase 3:
 
 - Pick **one bounded module** of a legacy system. Bounded means: clear inputs, clear outputs, reasonable test coverage (or ability to backfill it quickly).
 - Use bounded autonomous loops with **strict specs + tests as the fitness function**.
@@ -53,25 +53,25 @@ If the go decision was made at end of Phase 2:
 
 ## FinOps — first pass
 
-Phase 3 is where token spend and infrastructure cost start to matter. Until now teams have been running supervised sessions; subagents, parallelism, and (optionally) autonomous loops change the cost shape meaningfully.
+Phase 4 is where token spend and infrastructure cost start to matter. Until now teams have been running supervised sessions; subagents, parallelism, and (optionally) autonomous loops change the cost shape meaningfully.
 
 **Activities:**
-- Capture **per-engineer and per-team token usage** for Phase 3 — this becomes the FinOps baseline the same way Phase 0 metrics became the throughput baseline
+- Capture **per-engineer and per-team token usage** for Phase 4 — this becomes the FinOps baseline the same way Phase 0 metrics became the throughput baseline
 - Tag spend by workflow type (interactive sessions vs. subagent fan-out vs. loops) so the contribution of each pattern is visible
 - Note which capabilities are cost-efficient and which aren't — multi-agent fan-out in particular needs scrutiny
-- Light forecast: extrapolate Phase 3 weekly spend to "what would this look like if every team in the org ran this way?" Even a rough number changes the conversation in Phase 5.
+- Light forecast: extrapolate Phase 4 weekly spend to "what would this look like if every team in the org ran this way?" Even a rough number changes the conversation in Phase 6.
 
-The point is not to optimise yet. The point is to *see* the cost so Phase 4 can make informed choices and Phase 5 can give leadership a credible forecast.
+The point is not to optimise yet. The point is to *see* the cost so Phase 5 can make informed choices and Phase 6 can give leadership a credible forecast.
 
 ## Working pattern
 
 - Lighthouse champions take the lead on onboarding new team members — explicit time allocated, not squeezed in around their day jobs
-- New members follow a compressed Phase 0 + Phase 1 + Phase 2 path, using only existing assets and the team's champion
+- New members follow a compressed Phase 1 + Phase 2 + Phase 3 path, using only existing assets and the team's champion
 - Agentic Engineers deliberately stay out of the onboarding loop — the experience should reflect what self-serve adoption would look like
 - Marketplace pull requests pick up sharply this phase as patterns get codified
 - Cross-team demo expands to include new members' first wins and stumbles
 
-## Stage gate to Phase 4
+## Stage gate to Phase 5
 
 Advisory. Targets and triggers were agreed in [Phase 0](phase-0-leadership-bootcamp.md#explicit-decisions-to-make-in-phase-0).
 
@@ -81,9 +81,9 @@ Advisory. Targets and triggers were agreed in [Phase 0](phase-0-leadership-bootc
 - [ ] If legacy rewrite track started: either a working module exists, OR a documented "why this didn't work yet" exists. Both are acceptable.
 - [ ] Confidence + happiness metrics are within the agreed band
 - [ ] FinOps baseline captured: per-engineer and per-team token spend, broken down by workflow type
-- [ ] Phase 3 stop-the-line triggers reviewed in retro — none currently active, or active ones have a documented mitigation
+- [ ] Phase 4 stop-the-line triggers reviewed in retro — none currently active, or active ones have a documented mitigation
 - [ ] **End-of-phase communication** sent org-wide — onboarding new engineers, FinOps baseline, what new capabilities are paying off
-- [ ] **Mid-program checkpoint** delivered to leadership and adjacent teams — broader update covering progress and the cost picture, so the FinOps conversation starts before Phase 5
+- [ ] **Mid-program checkpoint** delivered to leadership and adjacent teams — broader update covering progress and the cost picture, so the FinOps conversation starts before Phase 6
 
 ## Marketplace contributions from this phase
 
@@ -100,4 +100,4 @@ Advisory. Targets and triggers were agreed in [Phase 0](phase-0-leadership-bootc
 - **Subagents and parallelism added because they are novel, not because they help.** Each new capability needs to justify itself with a concrete win, not "we tried it."
 - **Legacy rewrite eats the program.** It's the most exciting track and the most likely to consume disproportionate attention *and* budget. Time-box it and watch its token spend.
 - **Marketplace becomes a dump.** Curation matters more than contribution. Owner from Phase 0 should be active here.
-- **FinOps treated as a Phase 5 problem.** By Phase 5 the conversation needs numbers. If you skip the baseline here, you'll be guessing.
+- **FinOps treated as a Phase 6 problem.** By Phase 6 the conversation needs numbers. If you skip the baseline here, you'll be guessing.

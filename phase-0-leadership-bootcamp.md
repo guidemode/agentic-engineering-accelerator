@@ -1,6 +1,6 @@
 # Phase 0 - Leadership Bootcamp, Baseline, and Business Case
 
-**Weeks 1–2** · [← back to README](README.md) · [next: Phase 1 →](phase-1-guardrails.md)
+**Weeks 1–2 of the 14-week envelope (pre-accelerator mobilisation)** · [← back to README](README.md) · [next: Phase 1 →](phase-1-team-onboarding.md)
 
 ## Objective
 
@@ -64,13 +64,13 @@ These are the program's working contract. Agreed by leadership + champions, reco
 
 Expect to revisit them at phase reviews. They are starting positions, not commandments.
 
-### 1. Phase 2 PR targets per team
+### 1. Phase 3 PR targets per team
 
-The point is direction-of-travel evidence, not output maximisation. Targets calibrated against the Phase 0 baseline for each team.
+The point is direction-of-travel evidence, not output maximisation. Targets calibrated against the Phase 0 baseline for each team. Phase 3 is the first phase where teams ship real features under supervision, so it's the first phase where PR throughput is a meaningful signal.
 
 **Healthy starting examples** (adapt to your teams):
 
-| Archetype | Suggested Phase 2 target (over 2 weeks) | Rationale |
+| Archetype | Suggested Phase 3 target (over 2 weeks) | Rationale |
 |---|---|---|
 | Greenfield | 8-12 assistant-touched PRs | Low review ceremony, fast iteration, new code is easier |
 | Active project | 4-6 assistant-touched PRs | Real users, real review pressure, integration risk |
@@ -96,30 +96,37 @@ Healthy examples:
 
 These are the watch-list per phase. The leadership group reviews this list during the Phase 0 workshop, adds, removes, or refines as needed, and commits to the resulting set.
 
-**Phase 1 — guardrails:**
-- Feedback loop (lint/test/typecheck) is too slow to be usable in a real assistant session
-- Assistant instruction files were written but not referenced in real sessions during the phase
-- A team has had no engineer report a "good session" for two weeks
+**Phase 1 — team onboarding & discovery:**
+- The compressed onboarding workshop didn't land — engineers are still confused about basic mechanics after week 1
+- AEs are doing the work instead of pairing — engineers can't run sessions without an AE in the room
+- A team has had no engineer report a "good session" by the end of the phase
+- The pain point inventory is empty or trivially short — nothing to feed into Phase 2
 
-**Phase 2 — first features:**
+**Phase 2 — guardrails & substrate:**
+- Feedback loop (lint/test/typecheck) is still too slow after substrate work — the work didn't land
+- Assistant instruction files were polished but not referenced in real sessions
+- Substrate work doesn't trace back to the Phase 1 pain inventory — teams reinventing problems
+- All five workstreams attempted shallowly, none done well
+
+**Phase 3 — first features:**
 - Reviewers are rubber-stamping assistant-generated PRs (caught in retro or via spot-check)
 - A team is shipping but engineers report dropping confidence or happiness
 - Defect escape rate climbs above the agreed band
 - Scope creep — assistant-driven PRs are quietly growing beyond the originating ticket
 
-**Phase 3 — scale-up:**
+**Phase 4 — scale-up:**
 - Newly added team members can't reach productive work in their first week using the existing assets
 - Lighthouse champions are burning out from onboarding load
 - Marketplace has contributions but no reuse across teams
 - A new capability (subagents, parallel, spec-driven) is being used because it's new, not because it helps
 
-**Phase 4 — full agentic:**
+**Phase 5 — full agentic:**
 - An autonomous flow caused a real incident and the chain of causation can't be reconstructed from the audit trail
 - A flow is producing PRs faster than humans can meaningfully review them — bottleneck moved, not vanished
 - Any flow is running without a named owner
 - Throughput is up but confidence or happiness is down
 
-**Phase 5 — rollout:**
+**Phase 6 — graduation & recommendation:**
 - Security / compliance / legal review surfaces a serious issue
 - No evidence that newly added team members internalised the patterns — transferability claim is unsupported
 - Pressure to write a positive recommendation regardless of the evidence
@@ -142,7 +149,7 @@ Advisory — but if any of these are missing, Phase 1 will struggle.
 - [ ] Initial investment-case model has been reviewed and accepted by leadership
 - [ ] Every participating engineer has assistant tooling installed and working
 - [ ] Communication owner named, channel and format for end-of-phase summaries chosen
-- [ ] **Explicit decisions recorded**: Phase 2 PR targets per team, stop-the-line triggers (program-wide and per-phase), definition of "stable or improving" for confidence and happiness
+- [ ] **Explicit decisions recorded**: Phase 3 PR targets per team, stop-the-line triggers (program-wide and per-phase), definition of "stable or improving" for confidence and happiness
 - [ ] **Phase 0 end-of-phase summary** drafted and sent org-wide — sets the tone for the comms cadence (what the program is, who's involved, what to expect)
 
 **Special blockers — Phase 1 cannot start without these:**

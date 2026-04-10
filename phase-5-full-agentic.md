@@ -1,6 +1,6 @@
-# Phase 4 — Full Agentic Patterns
+# Phase 5 — Full Agentic Patterns
 
-**Weeks 9–10** · [← Phase 3](phase-3-scale-up.md) · [README](README.md) · [Phase 5 →](phase-5-rollout.md)
+**Weeks 11–12 of the 14-week envelope (accelerator weeks 9–10)** · [← Phase 4](phase-4-scale-up.md) · [README](README.md) · [Phase 6 →](phase-6-rollout.md)
 
 ## Objective
 
@@ -8,11 +8,11 @@ Move from "agent as pair-programmer" to **"agent as autonomous worker on bounded
 
 ## Premise
 
-By now teams know how to supervise. The question is: where can we *reduce* supervision safely, and where can't we? Phase 4 finds out by deliberately running autonomous flows in production — with kill switches, budgets, and audit trails from day one.
+By now teams know how to supervise. The question is: where can we *reduce* supervision safely, and where can't we? Phase 5 finds out by deliberately running autonomous flows in production — with kill switches, budgets, and audit trails from day one.
 
 ## Who
 
-The three lighthouse teams (now including the engineers added in Phase 3) plus the optional legacy rewrite track if running.
+The three lighthouse teams (now including the engineers added in Phase 4) plus the optional legacy rewrite track if running.
 
 The two **Agentic Engineers** are still embedded but their role has shifted further: they pair on autonomous flow design, push hard on the kill-switch / budget / audit / ownership non-negotiables, and start handing more facilitation responsibility to the champions. By the end of this phase, the champions should be running their teams' sessions; the AEs should be the second opinion, not the first.
 
@@ -53,16 +53,16 @@ If any of these are missing, the flow stays supervised. The token-budget require
 
 ## FinOps — operating phase
 
-Phase 3 captured the baseline. Phase 4 is where autonomous flows make cost a first-class operating concern.
+Phase 4 captured the baseline. Phase 5 is where autonomous flows make cost a first-class operating concern.
 
 **Activities:**
 - Each autonomous flow reports its weekly token spend alongside its output
 - Track **cost per useful outcome** for each flow — cost per merged PR, cost per resolved bug, cost per doc page generated. This is the only number that actually matters.
 - Distinguish flows where cost scales linearly with value (good) from flows where cost scales with repeated retries (bad - fix or stop)
-- Forecast updated: with real autonomous-flow spend numbers, refine the "what would this look like at org-wide scale" projection from Phase 3
+- Forecast updated: with real autonomous-flow spend numbers, refine the "what would this look like at org-wide scale" projection from Phase 4
 - Surprise spend reviews: if any flow's weekly spend deviates >2x from the prior week without a known cause, investigate
 
-The FinOps view feeds directly into the Phase 5 recommendation. By the end of Phase 4, leadership should be able to look at the program and answer "if we doubled the number of teams, what would the bill look like" with a number, not a guess.
+The FinOps view feeds directly into the Phase 6 recommendation. By the end of Phase 5, leadership should be able to look at the program and answer "if we doubled the number of teams, what would the bill look like" with a number, not a guess.
 
 ## Working pattern
 
@@ -71,7 +71,7 @@ The FinOps view feeds directly into the Phase 5 recommendation. By the end of Ph
 - Mid-phase incident review: there *will* be at least one thing that goes sideways. Treat it as a learning artefact, not a failure.
 - Demo at end of phase shows autonomous flows in action with their kill switches, budgets, audit trails, and cost-per-outcome numbers
 
-## Stage gate to Phase 5
+## Stage gate to Phase 6
 
 Advisory. Targets and triggers were agreed in [Phase 0](phase-0-leadership-bootcamp.md#explicit-decisions-to-make-in-phase-0).
 
@@ -81,8 +81,8 @@ Advisory. Targets and triggers were agreed in [Phase 0](phase-0-leadership-bootc
 - [ ] Each archetype has a documented "what we'd do differently next time"
 - [ ] Confidence + happiness metrics within the agreed band
 - [ ] Cost-per-useful-outcome captured for each autonomous flow
-- [ ] Updated org-scale cost forecast ready for Phase 5
-- [ ] Phase 4 stop-the-line triggers reviewed in retro — none currently active, or active ones have a documented mitigation
+- [ ] Updated org-scale cost forecast ready for Phase 6
+- [ ] Phase 5 stop-the-line triggers reviewed in retro — none currently active, or active ones have a documented mitigation
 - [ ] **End-of-phase communication** sent org-wide — autonomous flows in production (with the kill-switch story), incident learnings, updated cost picture
 
 ## Marketplace contributions from this phase

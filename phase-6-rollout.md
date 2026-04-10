@@ -1,6 +1,6 @@
-# Phase 5 - Graduation and Recommendation
+# Phase 6 — Graduation and Recommendation
 
-**Weeks 11–12** · [← Phase 4](phase-4-full-agentic.md) · [README](README.md)
+**Weeks 13–14 of the 14-week envelope (accelerator weeks 11–12)** · [← Phase 5](phase-5-full-agentic.md) · [README](README.md)
 
 ## Objective
 
@@ -8,15 +8,15 @@ Produce a clear, defensible **recommendation to leadership** about whether and h
 
 ## Premise
 
-The pilot was deliberately bounded — same three lighthouse teams from Phase 1 through Phase 4, with new individuals added in Phase 3 to test transferability at the human level. Phase 5 is **not** a rollout. The decision to roll out (or not) is the *output* of Phase 5, not an assumption built into it.
+The pilot was deliberately bounded — same three lighthouse teams from Phase 1 through Phase 5, with new individuals added in Phase 4 to test transferability at the human level. Phase 6 is **not** a rollout. The decision to roll out (or not) is the *output* of Phase 6, not an assumption built into it.
 
-The question Phase 5 answers: given everything we learned in Weeks 1–10, what should the org do next, and what would it cost?
+The question Phase 6 answers: given everything we learned across the 12-week accelerator, what should the org do next, and what would it cost?
 
 ## Who
 
-- The three lighthouse teams (including the engineers added in Phase 3)
+- The three lighthouse teams (including the engineers added in Phase 4)
 - The two **Agentic Engineers**, now leading on graduation deliverables (recommendation, guide, playbooks) alongside the comms owner. Champions remain the primary operators of day-to-day work; AEs are writing up outcomes, not taking control back.
-- Engineering leadership (active again — they were quieter through Phases 1–4)
+- Engineering leadership (active again — they were quieter through Phases 1–5)
 - Security, compliance, legal stakeholders (formal review)
 - Finance / FinOps stakeholder (reviewing the cost forecast and steady-state spend assumptions)
 
@@ -24,7 +24,7 @@ The question Phase 5 answers: given everything we learned in Weeks 1–10, what 
 
 ### Internal "agentic engineering" guide
 
-**Built from Phase 0–4 artefacts, not written from scratch.** If a section can't be sourced from real work in the pilot, it doesn't belong in the guide. The guide is:
+**Built from Phase 0–5 artefacts, not written from scratch.** If a section can't be sourced from real work in the pilot, it doesn't belong in the guide. The guide is:
 
 - How we use AI coding assistants in this org
 - Per-archetype playbooks
@@ -96,11 +96,11 @@ Output: a written sign-off (or a list of remediations required before any broade
 
 ### FinOps review and forecast
 
-Built on the baseline captured in Phase 3 and the cost-per-outcome data from Phase 4.
+Built on the baseline captured in Phase 4 and the cost-per-outcome data from Phase 5.
 
 - **Pilot spend** — total token cost across the 12-week accelerator, broken down by team, phase, and workflow type (interactive sessions vs. subagents vs. autonomous flows vs. legacy rewrite if applicable)
 - **Cost per useful outcome** — per archetype, with caveats about what counts as "useful"
-- **Steady-state forecast for the lighthouse teams** — if these teams continue operating as they did in Phase 4, what does the next quarter cost
+- **Steady-state forecast for the lighthouse teams** — if these teams continue operating as they did in Phase 5, what does the next quarter cost
 - **Scale forecast** — if every team in the org adopted the same patterns, what would the bill look like, and how confident are we in that number
 - **Cost levers identified** — which patterns are cost-efficient, which aren't, where the biggest reductions are available
 - **Recommendation on cost guardrails** — org-wide budget caps, per-team allowances, alerting thresholds, FinOps ownership going forward
@@ -147,7 +147,7 @@ The recommendation should be defensible from the pilot's evidence — including 
 
 Advisory — but this is the program's final gate, so each item should be genuinely satisfied, not waved through. Triggers were agreed in [Phase 0](phase-0-leadership-bootcamp.md#explicit-decisions-to-make-in-phase-0).
 
-- [ ] Engineers added in Phase 3 have given honest feedback on the onboarding experience — written up as the transferability evidence
+- [ ] Engineers added in Phase 4 have given honest feedback on the onboarding experience — written up as the transferability evidence
 - [ ] Marketplace v1.0 has named owners and a contribution process
 - [ ] Security / compliance / legal review completed with written sign-off (or remediation list)
 - [ ] FinOps review completed with pilot spend, cost-per-outcome, and steady-state forecast
@@ -156,7 +156,7 @@ Advisory — but this is the program's final gate, so each item should be genuin
 - [ ] Final retro completed and documented
 - [ ] Steady-state operating model **recommendation** delivered to leadership, covering: scale yes/no, operating model, budget envelope
 - [ ] Metrics show direction-of-travel against Phase 0 baseline (positive or negative — both are findings)
-- [ ] Phase 5 stop-the-line triggers reviewed in retro — none currently active, or active ones are explicitly flagged in the recommendation
+- [ ] Phase 6 stop-the-line triggers reviewed in retro — none currently active, or active ones are explicitly flagged in the recommendation
 
 ## Marketplace contributions from this phase
 
@@ -170,8 +170,8 @@ Advisory — but this is the program's final gate, so each item should be genuin
 
 - **Victory lap before evidence.** Pressure to declare success regardless of results. Resist. The most valuable thing the program can deliver is an honest assessment, not a positive one.
 - **Recommendation written to please leadership.** If the right call is "not yet" or "no", that has to be sayable.
-- **Marketplace handed off to no one.** Ownership decided in Phase 0 must still be valid here. If the original owner has moved on, name a new one *before* Phase 5 ends.
-- **Security/compliance/legal review deferred "to next quarter".** No. It happens in Phase 5 or the program isn't done.
+- **Marketplace handed off to no one.** Ownership decided in Phase 0 must still be valid here. If the original owner has moved on, name a new one *before* Phase 6 ends.
+- **Security/compliance/legal review deferred "to next quarter".** No. It happens in Phase 6 or the program isn't done.
 - **FinOps review skipped or under-evidenced.** Anyone who has to sign the bill will reject a recommendation without credible cost numbers. Better to present rough numbers transparently than precise numbers nobody trusts.
-- **Lighthouse teams left with unsustainable load.** They have been doing extra work for 12 weeks. Make sure the steady-state model does not assume that burden continues indefinitely.
-- **Confusing the recommendation with a rollout.** Phase 5 produces a recommendation. The actual rollout (if any) starts after, with its own scope, plan, and budget — not as an automatic extension of the pilot.
+- **Lighthouse teams left with unsustainable load.** They have been doing extra work across the full accelerator. Make sure the steady-state model does not assume that burden continues indefinitely.
+- **Confusing the recommendation with a rollout.** Phase 6 produces a recommendation. The actual rollout (if any) starts after, with its own scope, plan, and budget — not as an automatic extension of the pilot.

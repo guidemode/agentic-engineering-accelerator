@@ -4,6 +4,8 @@ A structured accelerator that helps an engineering organisation move from early 
 
 A **14-week envelope**: 2 weeks of mobilisation and business-case setup (Phase 0), followed by the 12-week accelerator (Phases 1–6).
 
+![14-week accelerator timeline](accelerator-timeline.svg)
+
 This is **v0**. Expect it to change as we run it.
 
 ## Shape

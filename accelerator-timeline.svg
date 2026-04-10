@@ -1,0 +1,153 @@
+<svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dy="1.5" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="960" height="520" fill="#fafbfc"/>
+
+  <!-- title -->
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Agentic Engineering Accelerator</text>
+  <text x="480" y="55" text-anchor="middle" font-size="12" fill="#64748b">14-week envelope · 2-week pre-accelerator mobilisation · 12-week accelerator (Phases 1–6)</text>
+
+  <!-- pre-accelerator vs accelerator section labels -->
+  <text x="140" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#94a3b8" letter-spacing="1">PRE-ACCELERATOR</text>
+  <text x="560" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#94a3b8" letter-spacing="1">12-WEEK ACCELERATOR</text>
+
+  <!-- vertical divider between Phase 0 and Phase 1 -->
+  <line x1="200" y1="88" x2="200" y2="395" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- week ruler -->
+  <g transform="translate(80, 96)">
+    <text x="-12" y="11" text-anchor="end" font-size="9" font-weight="700" fill="#64748b" letter-spacing="0.5">WK</text>
+    <text x="30" y="11" text-anchor="middle" font-size="11" fill="#475569">1</text>
+    <text x="90" y="11" text-anchor="middle" font-size="11" fill="#475569">2</text>
+    <text x="150" y="11" text-anchor="middle" font-size="11" fill="#475569">3</text>
+    <text x="210" y="11" text-anchor="middle" font-size="11" fill="#475569">4</text>
+    <text x="270" y="11" text-anchor="middle" font-size="11" fill="#475569">5</text>
+    <text x="330" y="11" text-anchor="middle" font-size="11" fill="#475569">6</text>
+    <text x="390" y="11" text-anchor="middle" font-size="11" fill="#475569">7</text>
+    <text x="450" y="11" text-anchor="middle" font-size="11" fill="#475569">8</text>
+    <text x="510" y="11" text-anchor="middle" font-size="11" fill="#475569">9</text>
+    <text x="570" y="11" text-anchor="middle" font-size="11" fill="#475569">10</text>
+    <text x="630" y="11" text-anchor="middle" font-size="11" fill="#475569">11</text>
+    <text x="690" y="11" text-anchor="middle" font-size="11" fill="#475569">12</text>
+    <text x="750" y="11" text-anchor="middle" font-size="11" fill="#475569">13</text>
+    <text x="810" y="11" text-anchor="middle" font-size="11" fill="#475569">14</text>
+  </g>
+
+  <!-- phase boxes -->
+  <g transform="translate(80, 115)">
+    <!-- Phase 0 -->
+    <rect x="2" y="0" width="116" height="100" rx="8" fill="#475569" filter="url(#shadow)"/>
+    <text x="60" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.75)" letter-spacing="1">PHASE 0</text>
+    <text x="60" y="48" text-anchor="middle" font-size="13" font-weight="700" fill="white">Mobilisation</text>
+    <text x="60" y="72" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Bootcamp · Baseline</text>
+    <text x="60" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Business case</text>
+
+    <!-- Phase 1 -->
+    <rect x="122" y="0" width="116" height="100" rx="8" fill="#3b82f6" filter="url(#shadow)"/>
+    <text x="180" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="1">PHASE 1</text>
+    <text x="180" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="white">Team onboarding</text>
+    <text x="180" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="white">&amp; discovery</text>
+    <text x="180" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">First sessions · Pain inventory</text>
+
+    <!-- Phase 2 -->
+    <rect x="242" y="0" width="116" height="100" rx="8" fill="#2563eb" filter="url(#shadow)"/>
+    <text x="300" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="1">PHASE 2</text>
+    <text x="300" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="white">Guardrails</text>
+    <text x="300" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="white">&amp; substrate</text>
+    <text x="300" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Hooks · Tests · Docs</text>
+
+    <!-- Phase 3 -->
+    <rect x="362" y="0" width="116" height="100" rx="8" fill="#6366f1" filter="url(#shadow)"/>
+    <text x="420" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="1">PHASE 3</text>
+    <text x="420" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="white">First supervised</text>
+    <text x="420" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="white">features</text>
+    <text x="420" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Real PRs · Plan-mode</text>
+
+    <!-- Phase 4 -->
+    <rect x="482" y="0" width="116" height="100" rx="8" fill="#7c3aed" filter="url(#shadow)"/>
+    <text x="540" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="1">PHASE 4</text>
+    <text x="540" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="white">Workflow</text>
+    <text x="540" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="white">scale-up</text>
+    <text x="540" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Subagents · New joiners</text>
+
+    <!-- Phase 5 -->
+    <rect x="602" y="0" width="116" height="100" rx="8" fill="#9333ea" filter="url(#shadow)"/>
+    <text x="660" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="1">PHASE 5</text>
+    <text x="660" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="white">Full agentic</text>
+    <text x="660" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="white">patterns</text>
+    <text x="660" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Autonomous flows</text>
+
+    <!-- Phase 6 -->
+    <rect x="722" y="0" width="116" height="100" rx="8" fill="#c026d3" filter="url(#shadow)"/>
+    <text x="780" y="22" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="1">PHASE 6</text>
+    <text x="780" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="white">Graduation &amp;</text>
+    <text x="780" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="white">recommendation</text>
+    <text x="780" y="86" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.85)">Final report · Sign-off</text>
+  </g>
+
+  <!-- stage gate diamonds between phases -->
+  <g transform="translate(80, 165)">
+    <polygon points="120,0 127,7 120,14 113,7" fill="#fbbf24" stroke="white" stroke-width="2"/>
+    <polygon points="240,0 247,7 240,14 233,7" fill="#fbbf24" stroke="white" stroke-width="2"/>
+    <polygon points="360,0 367,7 360,14 353,7" fill="#fbbf24" stroke="white" stroke-width="2"/>
+    <polygon points="480,0 487,7 480,14 473,7" fill="#fbbf24" stroke="white" stroke-width="2"/>
+    <polygon points="600,0 607,7 600,14 593,7" fill="#fbbf24" stroke="white" stroke-width="2"/>
+    <polygon points="720,0 727,7 720,14 713,7" fill="#fbbf24" stroke="white" stroke-width="2"/>
+  </g>
+
+  <!-- Tracks header -->
+  <text x="80" y="245" font-size="10" font-weight="700" fill="#64748b" letter-spacing="0.8">CROSS-CUTTING TRACKS</text>
+
+  <!-- Tracks -->
+  <g transform="translate(80, 255)">
+    <!-- Agentic Engineers -->
+    <text x="-12" y="14" text-anchor="end" font-size="10" font-weight="600" fill="#475569">Agentic Engineers</text>
+    <rect x="2" y="3" width="836" height="20" rx="4" fill="#475569" opacity="0.88"/>
+    <text x="420" y="17" text-anchor="middle" font-size="10" fill="white" font-weight="500">~2 senior engineers embedded across all phases</text>
+
+    <!-- Marketplace -->
+    <text x="-12" y="40" text-anchor="end" font-size="10" font-weight="600" fill="#475569">Marketplace</text>
+    <rect x="2" y="29" width="836" height="20" rx="4" fill="#d97706" opacity="0.88"/>
+    <text x="420" y="43" text-anchor="middle" font-size="10" fill="white" font-weight="500">Skills · Hooks · Slash commands · Subagents — curated, named owner from Phase 0</text>
+
+    <!-- Communication -->
+    <text x="-12" y="66" text-anchor="end" font-size="10" font-weight="600" fill="#475569">Communication</text>
+    <rect x="2" y="55" width="836" height="20" rx="4" fill="#0d9488" opacity="0.88"/>
+    <text x="420" y="69" text-anchor="middle" font-size="10" fill="white" font-weight="500">End-of-phase summaries · Mid-program checkpoint · Final org-wide summary</text>
+
+    <!-- Metrics -->
+    <text x="-12" y="92" text-anchor="end" font-size="10" font-weight="600" fill="#475569">Metrics &amp; telemetry</text>
+    <rect x="2" y="81" width="836" height="20" rx="4" fill="#be185d" opacity="0.88"/>
+    <text x="420" y="95" text-anchor="middle" font-size="10" fill="white" font-weight="500">Throughput · Quality · Confidence · Happiness — baselined in Phase 0</text>
+
+    <!-- FinOps - starts at Phase 4 (envelope week 9, x=480) -->
+    <text x="-12" y="118" text-anchor="end" font-size="10" font-weight="600" fill="#475569">FinOps</text>
+    <rect x="482" y="107" width="356" height="20" rx="4" fill="#b91c1c" opacity="0.88"/>
+    <text x="660" y="121" text-anchor="middle" font-size="10" fill="white" font-weight="500">Token spend · Cost per outcome · Forecast (joins from Phase 4)</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(80, 415)">
+    <polygon points="6,6 13,13 6,20 -1,13" fill="#fbbf24" stroke="white" stroke-width="1.5"/>
+    <text x="22" y="17" font-size="10" fill="#475569">Stage gate (advisory; can stop the line)</text>
+
+    <line x1="240" y1="13" x2="270" y2="13" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="278" y="17" font-size="10" fill="#475569">Pre-accelerator boundary</text>
+
+    <text x="836" y="17" text-anchor="end" font-size="10" fill="#475569" font-style="italic">3 lighthouse teams · 1 optional rewrite track</text>
+  </g>
+
+  <!-- bottom note -->
+  <text x="480" y="475" text-anchor="middle" font-size="10" fill="#94a3b8">Phase 0 sits before the 12-week accelerator. Each accelerator phase is 2 weeks with an advisory stage gate.</text>
+</svg>
